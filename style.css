@@ -748,8 +748,84 @@ input[type="text"] {
   transition: 0.3s;
 }
 
+
+
+
+
 /* Mobile nav menu */
-@media (max-width: 768px) {
+
+
+/* Mobile nav menu */
+@media (max-width: 1024px) {
+
+  .footer-container{
+    padding: 0 25px;
+   }
+
+   .footer-data{
+    font-size: .8em;
+    line-height: 3;
+    justify-content: space-between;
+   }
+
+   .footer-list2 ul{
+    padding: 0;
+   }
+   .footer-list2{
+    margin: 0;
+    padding: 0;
+   }
+
+
+   .footer-list1 ul{
+    padding: 0;
+   }
+   .footer-list1{
+    margin: 0;
+    padding: 0;
+   }
+
+   .footer-logo h4{
+    font-size: 1em;
+   }
+
+   .footer-form{
+    font-size: 1em;
+   }
+
+
+  .front-head p{
+    font-size: 0.7em;
+  }
+
+  .third-page-info{
+    padding: 25px 15px;
+  }
+
+ .impact-page{
+  font-size: .8em;
+  margin-right: 25px;
+  height: fit-content;
+ }
+
+ .why-container{
+  font-size: .7em;
+ }
+
+ .customer-card h3{
+  margin: 50px 0;
+  padding: 10px 0 0 25px;
+ }
+
+ .customer-card{
+  padding: 10px 20px;
+ }
+
+  .third-page-img-dot {
+ 
+    display: none;
+   
+ }
   .nav-left {
     position: absolute;
     top: 100px;
@@ -782,6 +858,248 @@ input[type="text"] {
     /* Hide center button in mobile */
   }
 }
+
+/* Mobile nav menu */
+@media (max-width: 1440px) {
+
+  .third-page-img-dot {
+ 
+    display: none;
+   
+ }
+  .nav-left {
+    position: absolute;
+    top: 100px;
+    /* height of navbar */
+    left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-left ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-left.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-center {
+    display: none;
+    /* Hide center button in mobile */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .footer-container{
+    padding: 0 25px;
+    height: fit-content;
+   
+
+   }
+
+   .footer-data{
+    font-size: .8em;
+    line-height: 3;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .footer-lists{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 50%;
+   }
+
+   .footer-list2 ul{
+    padding: 0;
+   }
+   .footer-list2{
+    margin: 0;
+    padding: 0;
+   }
+
+
+   .footer-list1 ul{
+    padding: 0;
+   }
+   .footer-list1{
+    margin: 0;
+    padding: 0;
+   }
+
+   .footer-logo h4{
+    font-size: 1em;
+   }
+  
+
+
+
+   .footer-form{
+    font-size: 1em;
+    display: flex;
+   }
+
+   .front-png{
+    top: 86%;
+
+   }
+
+   .front-png img{
+    max-height: 300px;
+   }
+
+  .front-head p{
+
+    font-size: .6em;
+    /* background: rebeccapurple; */
+  }
+
+ 
+
+.third-page-img{
+  left: -60%;
+}
+
+.third-page{
+  height: 40vh;
+}
+
+  .third-page-info{
+    padding: 25px 25px;
+    font-size: .8em;
+  }
+
+ .impact-page{
+  font-size: .6em;
+  margin-right: 5px;
+  padding-right: 0px;
+  height: fit-content;
+ }
+
+
+
+ .why-container{
+  font-size: .7em;
+ }
+
+ .customer-card h3{
+  margin: 50px 0;
+  padding: 10px 0 0 25px;
+ }
+ #cards .col{
+  width: fit-content;
+ }
+
+#cards{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+ .customer-card{
+  /* height: 80vh;
+  flex-wrap: wrap;
+  overflow: hidden; */
+  padding: 10px 20px;
+  
+ }
+
+  .third-page-img-dot {
+ 
+    display: none;
+   
+ }
+  .nav-left {
+    position: absolute;
+    top: 100px;
+    /* height of navbar */
+    left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-left ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-left.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-center {
+    display: none;
+    /* Hide center button in mobile */
+  }
+}
+
+
+
+/* @media (max-width: 768px) {
+
+  .third-page-img-dot {
+ 
+    display: none;
+   
+ }
+  .nav-left {
+    position: absolute;
+    top: 100px; */
+    /* height of navbar */
+    /* left: 0;
+    width: 100%;
+    background: white;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-left ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-left.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-center {
+    display: none;
+    
+  }
+} */
 
 
 
