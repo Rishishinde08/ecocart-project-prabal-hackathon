@@ -860,6 +860,11 @@ input[type="text"] {
 /* Mobile nav menu */
 @media (max-width: 1440px) {
 
+
+  .footer-logo h4 a{
+    font-size: 3em;
+  }
+
   .third-page-img-dot {
  
     display: none;
@@ -1313,6 +1318,16 @@ input[type="text"] {
 }
 }
 
+
+@media (max-width: 191px) {
+
+  .front-head p{
+    
+    background-color: rebeccapurple;
+    font-size: 5px;
+  }
+
+}
 
 
 
