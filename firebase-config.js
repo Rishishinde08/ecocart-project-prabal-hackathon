@@ -4,7 +4,7 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-
 
 // Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyBftBBS__W32K5hE2K1g_O8B3dUFyy3o3o",
+  apiKey: "api_key",
   authDomain: "ecocart-form.firebaseapp.com",
   projectId: "ecocart-form",
   storageBucket: "ecocart-form.firebasestorage.app",
